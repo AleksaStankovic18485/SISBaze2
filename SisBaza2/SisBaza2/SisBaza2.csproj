@@ -104,14 +104,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entiteti\anketniOdbori.cs" />
+    <Compile Include="Entiteti\deklaracija.cs" />
+    <Compile Include="Entiteti\komisije.cs" />
     <Compile Include="Entiteti\narodniPoslanik.cs" />
+    <Compile Include="Entiteti\naZahtev.cs" />
+    <Compile Include="Entiteti\odluka.cs" />
+    <Compile Include="Entiteti\organizacija.cs" />
+    <Compile Include="Entiteti\poslanickaGrupa.cs" />
+    <Compile Include="Entiteti\pravniAkt.cs" />
+    <Compile Include="Entiteti\predlog.cs" />
+    <Compile Include="Entiteti\privremeniOdbori.cs" />
+    <Compile Include="Entiteti\radniDan.cs" />
+    <Compile Include="Entiteti\radnoTelo.cs" />
+    <Compile Include="Entiteti\sednica.cs" />
+    <Compile Include="Entiteti\sluzbenaProstorija.cs" />
+    <Compile Include="Entiteti\stalniOdbori.cs" />
+    <Compile Include="Entiteti\stalniRadniOdnos.cs" />
+    <Compile Include="Entiteti\zakon.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mapiranja\anketniOdborMapiranja.cs" />
+    <Compile Include="Mapiranja\deklaracijaMapiranja.cs" />
+    <Compile Include="Mapiranja\komisijeMapiranja.cs" />
     <Compile Include="Mapiranja\narodniPoslanikMapiranja.cs" />
+    <Compile Include="Mapiranja\naZahtevMapiranja.cs" />
+    <Compile Include="Mapiranja\odlukaMapiranja.cs" />
+    <Compile Include="Mapiranja\organizacijaMapiranja.cs" />
+    <Compile Include="Mapiranja\poslanickaGrupaMapiranja.cs" />
+    <Compile Include="Mapiranja\pravniAktMapiranja.cs" />
+    <Compile Include="Mapiranja\predlogMapiranja.cs" />
+    <Compile Include="Mapiranja\privremeniOdboriMapiranja.cs" />
+    <Compile Include="Mapiranja\radniDanMapiranja.cs" />
+    <Compile Include="Mapiranja\radnoTeloMapiranja.cs" />
+    <Compile Include="Mapiranja\sednicaMapiranja.cs" />
+    <Compile Include="Mapiranja\sluzbenaProstorijaMapiranja.cs" />
+    <Compile Include="Mapiranja\stalniOdboriMapiranja.cs" />
+    <Compile Include="Mapiranja\stalniRadniOdnosMapiranja.cs" />
+    <Compile Include="Mapiranja\zakonMapiranja.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

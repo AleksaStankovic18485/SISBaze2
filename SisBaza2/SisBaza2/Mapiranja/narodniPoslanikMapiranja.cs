@@ -12,6 +12,27 @@ namespace SisBaza2.Mapiranja
     {
         public narodniPoslanikMapiranja()
         {
+            Table("NARODNIPOSLANIK");
+
+            /*kljucevi???*/
+            Id(x => x.Id, "ID").GeneratedBy.TriggerIdentity();
+
+            Map(x => x.JMBG, "JMBG");
+            Map(x => x.IdentifikacioniBroj, "IDENTIFIKACIONIBROJ");
+            Map(x => x.Ime, "IME");
+            Map(x => x.ImeJednogRoditelja, "IMEJEDNOGRODITELJA");
+            Map(x => x.Prezime, "PREZIME");
+            /*Map(x => x.IzbornaLista, "IZBORNALISTA");*/
+            Map(x => x.DatumRodjenja, "DATUMRODENJA");
+            Map(x => x.MestoRodjenja, "MESTORODENJA");
+            Map(x => x.Grad, "GRAD");
+            Map(x => x.Adresa, "ADRESA");
+            Map(x => x.BrojTelefona, "BROJTELEFONA");
+            Map(x => x.BrojMobilnog, "BROJMOBILNOG");
+            /*Map(x=>x.IdPrisutnogGradnjana)*/
+
+
+
 
         }
 
